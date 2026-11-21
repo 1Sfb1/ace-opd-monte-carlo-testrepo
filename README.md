@@ -1,6 +1,6 @@
 # Testrepo voor Schat π met Monte Carlo
 
-Deze openbare voorbeeldrepo bevat fictieve bestanden voor de acht controles in het sollicitantenportaal. Gebruik de repo om de controle te oefenen. Lever voor de opdracht je eigen uitwerking in.
+Deze openbare voorbeeldrepo bevat fictieve bestanden voor de negen controles in het sollicitantenportaal. Gebruik de repo om de controle te oefenen. Lever voor de opdracht je eigen uitwerking in.
 
 ## Uitvoeren
 
@@ -12,7 +12,7 @@ python -m unittest -v
 
 ## Uitleg
 
-De portaalcontrole leest de bestandsnamen en tekst in deze README. De Python-bestanden zijn testmateriaal voor die controle. De twee lokale tests verifiëren dat de functies uit het voorbeeldbestand geïmporteerd kunnen worden.
+De portaalcontrole leest de bestandsnamen en tekst in deze README. De Python-bestanden zijn testmateriaal voor die controle. De twee unittest-tests verifiëren dat de functies uit het voorbeeldbestand geïmporteerd kunnen worden. GitHub Actions voert hetzelfde testcommando uit.
 
 ## Bronnen en licenties
 
