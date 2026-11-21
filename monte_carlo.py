@@ -1,11 +1,11 @@
-"""Voorbeeldbestand voor de repositorycontrole van het sollicitantenportaal."""
+"""Functies bij de opdracht Schat π met Monte Carlo."""
 
 
 def is_in_unit_circle(x, y):
-    """Dit voorbeeld bevat alleen de functienaam voor de portaaltest."""
-    raise NotImplementedError("Vervang deze functie door je eigen uitwerking.")
+    """Geef aan of het punt (x, y) in de eenheidscirkel of op de rand ligt."""
+    raise NotImplementedError
 
 
 def estimate_pi(n, seed):
-    """Dit voorbeeld bevat alleen de functienaam voor de portaaltest."""
-    raise NotImplementedError("Vervang deze functie door je eigen uitwerking.")
+    """Geef een herhaalbare schatting van π voor n punten en de gegeven seed."""
+    raise NotImplementedError

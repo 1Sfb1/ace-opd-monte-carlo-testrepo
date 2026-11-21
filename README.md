@@ -1,23 +1,25 @@
-# Testrepo voor Schat π met Monte Carlo
+# Schat π met Monte Carlo
 
-Deze openbare voorbeeldrepo bevat fictieve bestanden voor de acht controles in het sollicitantenportaal. Gebruik de repo om de controle te oefenen. Lever voor de opdracht je eigen uitwerking in.
+Kopieer deze drie bestanden naar de hoofdmap van je eigen openbare GitHub-repository. Gebruik Python 3 en de standaardbibliotheek.
 
 ## Uitvoeren
 
-Voer de twee controles van de voorbeeldbestanden uit met de Python-standaardbibliotheek.
+Open een terminal in de map met de drie bestanden en voer dit commando uit.
 
-```sh
+```text
 python -m unittest -v
 ```
 
+De meegeleverde voorbeeldtest geeft in de starterversie een `NotImplementedError`. Vul beide functies in en schrijf minstens één eigen test voor een punt op de rand van de eenheidscirkel.
+
 ## Uitleg
 
-De portaalcontrole leest de bestandsnamen en tekst in deze README. De Python-bestanden zijn testmateriaal voor die controle. De twee lokale tests verifiëren dat de functies uit het voorbeeldbestand geïmporteerd kunnen worden.
+Leg in je eigen woorden uit waar de factor 4 vandaan komt en waarom de schatting met meer punten doorgaans stabieler wordt.
 
 ## Bronnen en licenties
 
-De opbouw volgt de ACE-opdracht *Schat π met Monte Carlo*. De voorbeeldbestanden bevatten eigen tekst en code.
+Vermeld welke bronnen je hebt gebruikt en welke licenties daarbij horen. Schrijf **Geen** als je geen bronnen hebt gebruikt.
 
 ## AI-assistenten
 
-Codex maakte de fictieve bestanden en README voor deze testrepo.
+Vermeld welke AI-assistenten je hebt gebruikt en waarvoor. Schrijf **Geen** als je er geen hebt gebruikt.

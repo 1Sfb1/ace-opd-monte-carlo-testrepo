@@ -1,17 +1,10 @@
-"""Controleer dat het voorbeeldbestand beide functies beschikbaar maakt."""
+"""De voorbeeldtest uit de opdracht."""
 
 import unittest
 
-from monte_carlo import estimate_pi, is_in_unit_circle
+from monte_carlo import estimate_pi
 
 
-class VoorbeeldbestandenTest(unittest.TestCase):
-    def test_cirkelfunctie_kan_worden_geimporteerd(self):
-        self.assertTrue(callable(is_in_unit_circle))
-
-    def test_schattingsfunctie_kan_worden_geimporteerd(self):
-        self.assertTrue(callable(estimate_pi))
-
-
-if __name__ == "__main__":
-    unittest.main()
+class TestMonteCarlo(unittest.TestCase):
+    def test_voorbeeld_met_vaste_seed(self):
+        self.assertEqual(estimate_pi(4, 42), 3.0)
